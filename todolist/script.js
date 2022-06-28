@@ -2,6 +2,7 @@ const btn = document.querySelector(".btn-submit");
 const inputText = document.getElementById("add");
 
 btn.onclick = () => {
+    console.log("bla bla bla bla bla bla bla bla bla")
     let temp = inputText.value;
     if (temp.length == 0) {
         alert("please fill in the field");
